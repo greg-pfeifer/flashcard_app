@@ -9,8 +9,27 @@
 </head>
 <body>
     
+    <h1 class="main-header text-center">Flash Cards</h1>
 
-    <script src="script.js"></script>
+    <section class="card-wrap text-center">
+        <button id="start">Start</button>
+        <div class="card-display hide">
+            <h3 id="question-display" 
+            class="text-center">What does the acronym DOM stand for?
+            </h3>
+
+            <!-- Timer display -->
+            <h1 id="timer-display">5</h1>
+            <!-- Answer display -->
+            <p id="answer-display">Document Object Model</p>
+
+            <button id="next" class="hide">Next Card</button>
+
+        </div>
+    </section>
+
+    
     <script src="cards.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
